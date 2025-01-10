@@ -79,8 +79,10 @@ nav {
     font-size: 56px;
     font-weight: 800;
     margin: 35px 280px 35px 0;
-}  
+}
+
 /* vision Section */
+
 .vision-section {
     margin-top: 110px;
 }
@@ -96,11 +98,12 @@ nav {
 .vision-carts {
     display: flex;
     justify-content: space-around;
+    gap: 20px;
 }
 .cart {
     padding: 52px;
-    border-radius: 40px;
-    margin: 0 10px;
+    border-radius: 25px;
+    /* margin: 0 10px; */
 }
 .cart-title {
     font-size: 24px;
@@ -110,8 +113,66 @@ nav {
 .cart-description {
     font-size: 18px;
     color: #6A7972;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .cart-btn {
     padding: 15px 20px;
+}
+
+/* Recent section */
+
+.recent-content {
+    margin-top: 100px;
+}
+.recent-title {
+    font-size: 40px;
+    font-weight: 800;
+}
+.recent-description {
+    font-size: 18px;
+    color: #6A7972;
+    margin: 30px 0;
+    padding: 10px 0;
+}
+.recent-cart {
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.recent-cart-img {
+    border-radius: 20px;
+    /* margin-right: 45px; */
+}
+.recent-cart-content {
+    margin-left: 40px;
+}
+.recent-cart-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 14px;
+}
+.recent-cart-img {
+    margin: 20px 0;
+}
+.recent-cart-date, .recent-cart-description {
+    font-size: 18px;
+    color: #6A7972;
+}
+.recent-cart-description {
+    margin: 20px 0;
+}
+.recent-cart-btn {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 18px 22px;
+}
+.recent-cart-2 {
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding: 55px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
 }
