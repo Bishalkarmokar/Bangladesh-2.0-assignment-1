@@ -17,7 +17,8 @@
 .primary-btn:hover {
     background-color: #fff;
     color: #006A50;
-    transition: all 0.6s;
+    transition: transform 1s ease-in-out;
+    cursor: pointer;
 }
 /* color */
 .light-green:hover {
@@ -31,7 +32,8 @@
 .green:hover {
     background-color: #fff;
     color: #09A15C;
-    transition: all 0.6s;
+    transition: transform 1s ease-in-out;
+    cursor: pointer;
 }
 .light-blue:hover {
     background-color: #D5E1F5;
@@ -44,7 +46,8 @@
 .blue:hover {
     background-color: #fff;
     color: #5490F5;
-    transition: all 0.6s;
+    transition: transform 1s ease-in-out;
+    cursor: pointer;
 }
 .light-yellow:hover {
     background-color: #F7EBCF;
@@ -57,7 +60,8 @@
 .yellow:hover {
     background-color: #fff;
     color: #FFC239;
-    transition: all 0.6s;
+    transition: transform 1s ease-in-out;
+    cursor: pointer;
 }
 
 body {
@@ -87,7 +91,8 @@ nav {
 .nav-btn:hover {
     background-color: #006A50;
     color: #f5f5f5;
-    transition: all 0.6s;
+    transition: transform 1s ease-in-out;
+    cursor: pointer;
 }
 /* Banner */
 .banner {
@@ -296,32 +301,36 @@ nav {
 .newsletter-description {
     font-size: 18px;
     font-weight: 400;
-    margin: 22px 106px;
+    margin: 38px 106px;
     color: #6A7972;
 }
-.email-label {
-    margin: 0;
-    padding: 0;
+
+.newsletter-form {
+    display: flex;
+    justify-content: space-between;
+    height: 66px;
+    width: 86%;
+    margin: 0 auto;
+    outline: none;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#email,.newsletter-btn{
+    background: none;
+    outline: none;
     border: none;
+    font-size: 20px;
 }
 #email {
-    margin: 0;
-    font-size: 20px;
-    width: 65%;
-    height: 60px;
-    padding-left: 34px;
-    border: none;
-    border-radius: 10px;
-    margin-right: -20px;
+    width: 500px;
+    padding: 0 40px;
 }
 .newsletter-btn {
-    border: none;
-    margin: 0;
-    padding: 18px 26px;
-    padding-top: 21px;
-    border-radius: 8px;
-    border: 2px solid #006A50;
-}
+    background-color: #006A50;
+    color: #fff;
+    padding: 0 36px;
+    border-radius: 0 10px 10px 0;
+}  
 .newsletter-text {
     font-size: 18px;
     color: #6A7972;
