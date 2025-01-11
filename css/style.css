@@ -254,3 +254,77 @@ nav {
     padding: 16px 31px;
     margin-bottom: 100px;
 }
+
+/* Quote section */
+
+.quote {
+    background-color: #fff;
+    margin: 80px 0;
+    padding: 60px 30px;
+    border-radius: 20px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 2% 12%;
+}
+.quote-description {
+    font-size: 18px;
+    color: #6A7972;
+    line-height: 27px;
+}
+.quote-name {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+}
+.quote-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #6A7972;
+}
+/* Newsletter section */
+.newsletter-section {
+    background-color: #C6E4D6;
+    padding: 80px 265px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+.newsletter-title {
+    font-size: 40px;
+    font-weight: 800;
+}
+.newsletter-description {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 22px 106px;
+    color: #6A7972;
+}
+.email-label {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+#email {
+    margin: 0;
+    font-size: 20px;
+    width: 65%;
+    height: 60px;
+    padding-left: 34px;
+    border: none;
+    border-radius: 10px;
+    margin-right: -20px;
+}
+.newsletter-btn {
+    border: none;
+    margin: 0;
+    padding: 18px 26px;
+    padding-top: 21px;
+    border-radius: 8px;
+    border: 2px solid #006A50;
+}
+.newsletter-text {
+    font-size: 18px;
+    color: #6A7972;
+    margin-top: 30px;
+    font-weight: 500;
+}
